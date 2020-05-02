@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "deploy": "gh-pages -d files",
+    "deploy": "gh-pages -d views",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
