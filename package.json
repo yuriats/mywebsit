@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d views"
+    "deploy": "gh-pages -d views",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "homepage": "https:/yuriats.github.io/mywebsit",
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "nodemon": "^2.0.3",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
   }
 }
