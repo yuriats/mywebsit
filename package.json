@@ -2,7 +2,7 @@
   "name": "mywebsit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "deploy": "gh-pages -d files",
     "start": "node server.js",
