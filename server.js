@@ -102,7 +102,7 @@ server.use(express.urlencoded({ extended: true }))
 
 // configuração do nunjucks
 const nunjucks = require("nunjucks")
-nunjucks.configure("views", {
+nunjucks.configure("/views", {
     express: server,
     // noCache: true, //boolean 
     // cache guarda algumas coisas em memória para usar mais tarde 
@@ -126,7 +126,7 @@ server.get("/", function (req, res) {
             }
 
         }
-        return res.render("index.html", { ideas: lastIdeas })
+        return res.render("/index.html", { ideas: lastIdeas })
 
         // console.log(rows)
     })
@@ -153,7 +153,7 @@ server.get("/ideias", function (req, res) {
         }
         const reversedIdeas = [...rows].reverse()
 
-        return res.render("ideias.html", { ideas: reversedIdeas })
+        return res.render("/ideias.html", { ideas: reversedIdeas })
 
     })
 
