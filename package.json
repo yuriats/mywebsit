@@ -1,7 +1,6 @@
 {
   "name": "mywebsit",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "deploy": "gh-pages -d views",
@@ -13,9 +12,12 @@
   "license": "ISC",
   "homepage": "https:/yuriats.github.io/mywebsit",
   "dependencies": {
+    "express": "^4.17.1",
     "gh-pages": "^2.2.0",
     "nodemon": "^2.0.3",
     "nunjucks": "^3.2.1",
     "sqlite3": "^4.2.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
