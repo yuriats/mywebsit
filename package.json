@@ -1,0 +1,16 @@
+{
+  "name": "mywebsit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d views"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https:/yuriats.github.io/mywebsit",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

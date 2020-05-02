@@ -1,0 +1,40 @@
+--> O Front-end armazena dados e recebe pedidos do cliente 
+
+Back-end
+! Recever pedidos do cliente
+! Devolver respostas para o cliente
+! Regras de negócio: verificar dados
+! Dados 
+
+Terminal server 
+criar arquivo server.js
+Ctrl + ' para abrir terminal no cmd 
+ls --> lista de arquivos 
+node nomedoarquiv.js executa 
+cd pasta 
+__dirname --> retorna o nome do diretório
+
+--> inicar 
+npm init -y
+
+--> rodar
+npm start
+npm dev
+
+// usei o expresso para criar e configurar o cervidor
+const express = require("express")
+const server = express()
+
+npm i nodemon //live automatica do server 
+npm i nunjucks //criar variaveis e funções no html 
+
+npm run dev
+
+SQL
+Structure Query Language
+
+Tabelas/Entidades/Relações 
+
+--> SQL Lite 
+npm i sqlite3
+
