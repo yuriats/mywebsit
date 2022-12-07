@@ -12,7 +12,7 @@
   "license": "ISC",
   "homepage": "https:/yuriats.github.io/mywebsit",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "gh-pages": "^2.2.0",
     "nodemon": "^2.0.3",
     "nunjucks": "^3.2.1",
